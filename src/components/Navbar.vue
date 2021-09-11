@@ -1,6 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
+      <img
+        src="@/assets/dogcat.svg"
+        class="img-fluid rounded-start svg-size"
+        alt="Madison Pets"
+      />
       <a class="navbar-brand" href="#">The Madison Foundation</a>
       <button
         class="navbar-toggler"
@@ -61,15 +66,13 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-primary" type="submit">Search</button>
-        </form>
+        <div class="d-flex">
+          <button type="button" class="btn btn-success btn-lg">
+            <router-link :to="{ name: 'Donate' }" class="text-white button-link"
+              >Donate Now
+            </router-link>
+          </button>
+        </div>
       </div>
     </div>
   </nav>
@@ -91,5 +94,9 @@ export default {
 }
 .button-link {
   text-decoration: none;
+}
+.svg-size {
+  width: 5rem;
+  color: white;
 }
 </style>

@@ -1,21 +1,18 @@
 <template>
-  <div class="row m-2">
-    <div class="col-4 m-3">
-      <div class="card me-0" style="width: 25rem">
-        <img
-          v-if="teamImage"
-          :src="'@/assets/team/' + teamImage"
-          class="img-fluid card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title fw-bold">{{ teamName }}</h5>
-          <small class="text-muted fw-bold">{{ teamRole }}</small>
-          <p class="card-text">
-            {{ teamDescription }}
-          </p>
-        </div>
-      </div>
+  <div class="card m-2 shadow-lg border border-2 border-dark">
+    <img
+      v-if="teamImage"
+      :src="require('@/assets/team/' + teamImage).default"
+      class="img-fluid img-height"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title fw-bold mb-0">{{ teamName }}</h5>
+      <small class="text-muted fw-bold">{{ teamRole }}</small>
+
+      <p class="card-text text-start mt-3">
+        {{ teamDescription }}
+      </p>
     </div>
   </div>
 </template>
@@ -33,4 +30,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.img-height {
+  width: 100%;
+}
+</style>
