@@ -1,18 +1,16 @@
 <template>
   <Navbar />
-  <Main />
-  <Footer />
+  <router-view />
+  <Footer class="mt-5" />
 </template>
 
 <script>
-import Main from "@/views/Main.vue";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Main,
     Navbar,
     Footer,
   },

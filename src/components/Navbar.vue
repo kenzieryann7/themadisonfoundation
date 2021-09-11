@@ -17,14 +17,30 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#"
-              >Our Mission</a
+              ><router-link
+                :to="{ name: 'Main' }"
+                class="text-white button-link"
+                >Our Misson
+              </router-link></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Team</a>
+            <a class="nav-link" aria-current="page" href="#"
+              ><router-link
+                :to="{ name: 'Team' }"
+                class="text-white button-link"
+                >Our Team
+              </router-link></a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Get Involved</a>
+            <a class="nav-link" href="#"
+              ><router-link
+                :to="{ name: 'Involved' }"
+                class="text-white button-link"
+                >Get Involved
+              </router-link></a
+            >
           </li>
           <li class="nav-item dropdown">
             <a
@@ -72,5 +88,8 @@ export default {
 <style scoped>
 .navbar-brand {
   font-size: 30px;
+}
+.button-link {
+  text-decoration: none;
 }
 </style>
