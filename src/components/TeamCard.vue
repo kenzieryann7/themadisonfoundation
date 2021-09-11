@@ -1,18 +1,18 @@
 <template>
   <div class="row m-2">
-    <div class="col-4 m-3" v-for="team in teamData" :key="team.id">
+    <div class="col-4 m-3">
       <div class="card me-0" style="width: 25rem">
         <img
-          v-if="team.image"
-          :src="'@/assets/' + team.image"
+          v-if="teamImage"
+          :src="'@/assets/team/' + teamImage"
           class="img-fluid card-img-top"
           alt="..."
         />
         <div class="card-body">
-          <h5 class="card-title fw-bold">{{ team.name }}</h5>
-          <small class="text-muted fw-bold">{{ team.role }}</small>
+          <h5 class="card-title fw-bold">{{ teamName }}</h5>
+          <small class="text-muted fw-bold">{{ teamRole }}</small>
           <p class="card-text">
-            {{ team.description }}
+            {{ teamDescription }}
           </p>
         </div>
       </div>
@@ -21,15 +21,13 @@
 </template>
 
 <script>
-import teamJson from "@/data/team.json";
-
 export default {
   name: "TeamCard",
-  props: {},
-  data: () => {
-    return {
-      teamData: teamJson,
-    };
+  props: {
+    teamName: String,
+    teamRole: String,
+    teamImage: String,
+    teamDescription: String,
   },
 };
 </script>
