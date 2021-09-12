@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container text-dark fw-bold">
     <h1 class="fw-bold">Donate</h1>
     <div class="row">
       <div class="col"></div>
