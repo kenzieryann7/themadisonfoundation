@@ -1,9 +1,9 @@
 <template>
-  <div class="container text-dark fw-bold">
-    <h1 class="fw-bold">Donate</h1>
-    <div class="row">
-      <div class="col-md-6 d-flex justify-content-center">
-        <div class="card text-dark bg-light mb-3">
+  <div class="container-fluid text-dark fw-bold">
+    <h1 class="fw-bold mb-3">Donate</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card text-dark bg-light mb-5 shadow">
           <div class="card-header h2 fw-bold">
             Make a Difference
             <svg
@@ -19,16 +19,41 @@
             </svg>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">
+            <p class="card-text text-start">
               Any money that is donated to the MadisonFoundation goes straight
               into helping strays. The money is used to help pay for the
               essentials for these animals including; Medical, food, toys,
               living spaces, etc. Thank you in advance for your donation, we
               greatly appreciate you!
             </p>
+            <a
+              href="https://www.gofundme.com/f/i-need-help-to-spay-and-neuter-strays"
+              target="_blank"
+              ><button type="button" class="btn btn-success btn-lg">
+                DONATE NOW
+              </button></a
+            >
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col">
+        <img
+          src="@/assets/pets/pet12.png"
+          class="img-thumbnail img-fluid img mb-3 shadow me-3"
+          alt="..."
+        />
+        <img
+          src="@/assets/pets/pet14.png"
+          class="img-thumbnail img-fluid img mb-3 shadow me-3"
+          alt="..."
+        />
+        <img
+          src="@/assets/pets/pet11.png"
+          class="img-thumbnail img-fluid img mb-3 shadow me-3"
+          alt="..."
+        />
       </div>
     </div>
   </div>
@@ -40,3 +65,9 @@ export default {
   components: {},
 };
 </script>
+
+<style scoped>
+.img {
+  height: 340px;
+}
+</style>

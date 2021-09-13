@@ -1,6 +1,6 @@
 <template>
   <div class="container text-dark fw-bold">
-    <h1 class="fw-bold mb-5">Meet the Team</h1>
+    <h1 class="fw-bold mb-3">Meet the Team</h1>
 
     <div class="row row-cols-5 row-cols-md-5 g-2">
       <div
