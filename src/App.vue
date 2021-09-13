@@ -1,18 +1,16 @@
 <template>
-  <Navbar />
-  <Main />
-  <Footer />
+  <Navbar class="mb-3" />
+  <router-view />
+  <Footer class="mt-5" />
 </template>
 
 <script>
-import Main from "@/views/Main.vue";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Main,
     Navbar,
     Footer,
   },
@@ -26,5 +24,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+body {
+  background: #2db3f1;
 }
 </style>

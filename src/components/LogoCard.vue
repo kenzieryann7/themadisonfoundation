@@ -4,7 +4,7 @@
       <div class="col-md-4">
         <img
           src="@/assets/mflogo.jpg"
-          class="img-fluid rounded-start"
+          class="img-fluid rounded border border-info p-2"
           alt="Madison Pets"
         />
       </div>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Gary Madison",
+    "role": "Founder",
+    "description": "I have always wanted to do my part to help animals and this way I can. I have worked hard to get to where I am, and I am excited for what the future holds with this foundation.",
+    "image": "gary.png"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Luis Miguel Figueiras Carrillo",
+    "role": "Veterinarian",
+    "description": "I love being able to contribute to this foundation, and using my experience in the veterinarian field to give these animals the best care possible.",
+    "image": "luis.png"
+  },
+  {
+    "id": 3,
+    "name": "Moisés Garcia Palacios",
+    "role": "Technician",
+    "description": "I am so glad to be working with this foundation, and being able to learn under Dr. Figueiras. I appreciate being able to work with Gary and this foundation as well as the animals.",
+    "image": "moises.png"
+  },
+  {
+    "id": 4,
+    "name": "Elisa Madison",
+    "role": "Social Media Manager & Designer",
+    "description": "I am lucky to have a part in something that will help many strays and families. I look forward to seeing what this foundation can do for the community.",
+    "image": "lisa.png"
+  },
+  {
+    "id": 5,
+    "name": "Adriana Maria Roa Figueiras",
+    "role": "Coordinator & Translater",
+    "description": "My love for animals is what drew me to this Foundation. This foundation brought everyone together, and I am excited to continue and watch it grow.",
+    "image": "adriana.png"
+  }
+]
