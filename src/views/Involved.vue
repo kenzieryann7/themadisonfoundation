@@ -1,22 +1,9 @@
 <template>
   <div class="container-fluid text-dark fw-bold">
-    <h1 class="fw-bold">Get Involved</h1>
+    <h1 class="fw-bold mb-5">Get Involved</h1>
     <div class="row mb-4">
-      <div class="col p-0">
-        <img
-          src="@/assets/pets/pet4.png"
-          class="img-thumbnail img-fluid img mb-3 shadow"
-          alt="..."
-        />
-        <br />
-        <img
-          src="@/assets/pets/pet6.png"
-          class="img-thumbnail img-fluid img mb-3 shadow"
-          alt="..."
-        />
-      </div>
-      <div class="col-md-6 justify-content-center mt-4">
-        <div class="card bg-light mb-3 shadow">
+      <div class="col-md-6">
+        <div class="card bg-light mb-3 me-3 shadow">
           <div class="card-header h2 fw-bold">
             Make a Donation!
             <svg
@@ -57,7 +44,8 @@
             >
           </div>
         </div>
-        <br />
+      </div>
+      <div class="col-md-6">
         <div class="card bg-light mb-3 shadow">
           <div class="card-header h2 fw-bold">
             Share us on Social Media!
@@ -115,16 +103,29 @@
           </div>
         </div>
       </div>
-      <div class="col p-0">
+    </div>
+    <div class="row">
+      <div class="col">
         <img
-          src="@/assets/pets/pet7.png"
-          class="img-thumbnail img-fluid img mb-3 shadow"
+          src="@/assets/pets/pet4.png"
+          class="img-thumbnail img-fluid img mb-3 shadow me-3"
           alt="..."
         />
-        <br />
+
+        <img
+          src="@/assets/pets/pet6.png"
+          class="img-thumbnail img-fluid img mb-3 shadow me-3"
+          alt="..."
+        />
+        <img
+          src="@/assets/pets/pet7.png"
+          class="img-thumbnail img-fluid img mb-3 shadow me-3"
+          alt="..."
+        />
+
         <img
           src="@/assets/pets/pet8.png"
-          class="img-thumbnail img-fluid img mb-3 shadow"
+          class="img-thumbnail img-fluid img mb-3 shadow me-3"
           alt="..."
         />
       </div>
@@ -144,6 +145,6 @@ export default {
   height: 20px;
 }
 .img {
-  height: 300px;
+  height: 340px;
 }
 </style>

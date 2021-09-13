@@ -16,7 +16,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
-              fill="currentColor"
+              fill="white"
               class="bi bi-facebook me-2 pointer"
               viewBox="0 0 16 16"
             >
@@ -29,7 +29,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
-              fill="currentColor"
+              fill="white"
               class="bi bi-twitter me-3 pointer"
               viewBox="0 0 16 16"
             >
@@ -45,7 +45,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
-              fill="currentColor"
+              fill="white"
               class="bi bi-cash-coin pointer"
               viewBox="0 0 16 16"
             >
@@ -95,6 +95,9 @@ export default {
 <style scoped>
 .pointer {
   cursor: pointer;
+}
+.pointer:hover {
+  fill: #2db3f1;
 }
 .text-small {
   font-size: 0.9em;

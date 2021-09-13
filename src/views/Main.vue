@@ -9,16 +9,16 @@
       <div class="col p-0">
         <img
           src="@/assets/pets/pet1.png"
-          class="img-thumbnail img-fluid img me-2 shadow"
+          class="img-thumbnail img-fluid img me-2 mb-2 shadow"
           alt="..."
         /><img
           src="@/assets/pets/pet2.png"
-          class="img-thumbnail img-fluid img me-2 shadow"
+          class="img-thumbnail img-fluid img me-2 mb-2 shadow"
           alt="..."
         />
         <img
           src="@/assets/pets/pet3.png"
-          class="img-thumbnail img-fluid img shadow"
+          class="img-thumbnail img-fluid img mb-2 shadow"
           alt="..."
         />
       </div>
