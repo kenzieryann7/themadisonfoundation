@@ -77,7 +77,7 @@
                   href="https://www.facebook.com/sharer/sharer.php?u=https://kenzieryann7.github.io/themadisonfoundation/"
                   target="_blank"
                 >
-                  <button type="button" class="btn btn-primary fw-bold">
+                  <button type="button" class="btn btn-primary fw-bold m-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="22"
