@@ -1,7 +1,7 @@
 <template>
-  <div class="container-fluid text-dark fw-bold">
+  <div class="container-fluid text-dark fw-bold ">
     <h1 class="fw-bold mb-3">Get Involved</h1>
-    <div class="row mb-4">
+    <div class="row mb-4 justify-content-center">
       <div class="col-md-6">
         <div class="card bg-light mb-3 me-2 shadow">
           <div class="card-header h2 fw-bold">
@@ -45,6 +45,8 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row mb-4 justify-content-center">
       <div class="col-md-6">
         <div class="card bg-light mb-3 shadow">
           <div class="card-header h2 fw-bold">
@@ -115,32 +117,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <img
-          src="@/assets/pets/pet4.png"
-          class="img-thumbnail img-fluid img mb-3 shadow me-3"
-          alt="..."
-        />
-
-        <img
-          src="@/assets/pets/pet6.png"
-          class="img-thumbnail img-fluid img mb-3 shadow me-3"
-          alt="..."
-        />
-        <img
-          src="@/assets/pets/pet7.png"
-          class="img-thumbnail img-fluid img mb-3 shadow me-3"
-          alt="..."
-        />
-
-        <img
-          src="@/assets/pets/pet8.png"
-          class="img-thumbnail img-fluid img mb-3 shadow me-3"
-          alt="..."
-        />
       </div>
     </div>
   </div>

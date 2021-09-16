@@ -24,6 +24,13 @@
             <router-link
               :to="{ name: 'Main' }"
               class="text-white nav-link button-link"
+              >Home
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link
+              :to="{ name: 'Mission' }"
+              class="text-white nav-link button-link"
               >Our Misson
             </router-link>
           </li>
@@ -41,13 +48,23 @@
               >Get Involved
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link
+              :to="{ name: 'Gallery' }"
+              class="text-white nav-link button-link"
+              >Gallery
+            </router-link>
+          </li>
         </ul>
         <div class="d-flex">
-          <button type="button" class="btn btn-success btn-lg">
-            <router-link :to="{ name: 'Donate' }" class="text-white button-link"
-              >Donate Now
-            </router-link>
-          </button>
+          <a
+            href="https://www.gofundme.com/f/i-need-help-to-spay-and-neuter-strays"
+            target="_blank"
+          >
+            <button type="button" class="btn btn-success btn-lg">
+              GoFundMe
+            </button></a
+          >
         </div>
       </div>
     </div>
@@ -68,8 +85,8 @@ export default {
 .navbar-brand {
   font-size: 30px;
 }
-.button-link:hover,
-.button-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #2db3f1 !important;
 }
 .button-link {
